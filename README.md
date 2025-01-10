@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Kotlin when modifying a list while iterating over it.  The `forEach` loop implicitly iterates over a copy of the list, causing some elements to be skipped when removed. The solution shows how to safely modify the list using an iterator or creating a new list.
